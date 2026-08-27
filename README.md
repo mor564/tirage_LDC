@@ -81,12 +81,41 @@ Cette dernière contrainte est traitée comme souple : elle ne figure pas dans l
 règlement fourni. Environ 40 à 50 % des calendriers générés l'annulent
 complètement, et il reste en moyenne moins d'une équipe concernée sur 36.
 
+## Écussons des clubs
+
+Les écussons proviennent de [TheSportsDB](https://www.thesportsdb.com), API
+gratuite et sans clé. Ils sont récupérés **une fois pour toutes** par un script
+et mis en cache dans `server/data/logos.json`, versionné avec le projet :
+l'application n'appelle jamais l'API à l'exécution.
+
+```bash
+cd server && node scripts/fetch-logos.js          # ne récupère que ce qui manque
+node scripts/fetch-logos.js --force               # tout re-télécharger
+```
+
+Les 36 clubs sont résolus. Quelques pièges rencontrés, traités dans le script :
+
+- la recherche échoue sur les traits d'union et les barres obliques —
+  `Paris Saint-Germain` ne renvoie rien, `Paris Saint Germain` oui ; de même
+  pour `Bodø/Glimt`, cherché sous `Bodo Glimt` ;
+- `Como 1907` renvoie l'équipe féminine, `Como` le bon club — les candidats
+  marqués féminins, réserves ou catégories jeunes sont donc écartés ;
+- Lille est absent de la recherche par nom : il est retrouvé via le listage de
+  son championnat, utilisé en dernier recours ;
+- la validation croise le nom **et** le pays, ce qui évite par exemple de
+  confondre le Sabah FC azerbaïdjanais avec son homonyme malaisien ;
+- la clé de test est limitée en débit : le script espace ses requêtes, réessaie
+  avec un délai croissant et enregistre sa progression au fur et à mesure.
+
+Une équipe sans écusson reçoit `logo: null` et le client affiche un monogramme
+à la place — l'interface ne dépend jamais de la disponibilité des images.
+
 ## API
 
 | Méthode | Route | Description |
 |---|---|---|
 | `GET` | `/api/health` | État du serveur et mode de stockage |
-| `GET` | `/api/teams` | Les 36 équipes |
+| `GET` | `/api/teams` | Les 36 équipes (avec l'URL de leur écusson) |
 | `GET` | `/api/teams/pots` | Les équipes groupées par chapeau |
 | `GET` | `/api/teams/:id` | Une équipe |
 | `POST` | `/api/draw/perform` | Lance un tirage (corps facultatif : `{ "seed": 2027 }`) |

@@ -1,0 +1,218 @@
+{
+  "1": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png",
+    "source": "TheSportsDB",
+    "sourceName": "Paris Saint-Germain",
+    "sourceId": "133714"
+  },
+  "2": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png",
+    "source": "TheSportsDB",
+    "sourceName": "Bayern Munich",
+    "sourceId": "133664"
+  },
+  "3": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
+    "source": "TheSportsDB",
+    "sourceName": "Real Madrid",
+    "sourceId": "133738"
+  },
+  "4": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png",
+    "source": "TheSportsDB",
+    "sourceName": "Liverpool",
+    "sourceId": "133602"
+  },
+  "5": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png",
+    "source": "TheSportsDB",
+    "sourceName": "Inter Milan",
+    "sourceId": "133681"
+  },
+  "6": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/vwpvry1467462651.png",
+    "source": "TheSportsDB",
+    "sourceName": "Manchester City",
+    "sourceId": "133613"
+  },
+  "7": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/uyhbfe1612467038.png",
+    "source": "TheSportsDB",
+    "sourceName": "Arsenal",
+    "sourceId": "133604"
+  },
+  "8": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
+    "source": "TheSportsDB",
+    "sourceName": "Barcelona",
+    "sourceId": "133739"
+  },
+  "9": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
+    "source": "TheSportsDB",
+    "sourceName": "Atlético Madrid",
+    "sourceId": "133729"
+  },
+  "10": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/tqo8ge1716960353.png",
+    "source": "TheSportsDB",
+    "sourceName": "Borussia Dortmund",
+    "sourceId": "133650"
+  },
+  "11": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png",
+    "source": "TheSportsDB",
+    "sourceName": "Roma",
+    "sourceId": "133682"
+  },
+  "12": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png",
+    "source": "TheSportsDB",
+    "sourceName": "Sporting CP",
+    "sourceId": "135708"
+  },
+  "13": {
+    "badge": "https://www.thesportsdb.com/images/media/team/badge/uwzw561787679026.png",
+    "source": "TheSportsDB",
+    "sourceName": "Aston Villa",
+    "sourceId": "133601"
+  },
+  "14": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/xu47rb1628855600.png",
+    "source": "TheSportsDB",
+    "sourceName": "Porto",
+    "sourceId": "134114"
+  },
+  "15": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png",
+    "source": "TheSportsDB",
+    "sourceName": "Manchester United",
+    "sourceId": "133612"
+  },
+  "16": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/mz8y0q1771129880.png",
+    "source": "TheSportsDB",
+    "sourceName": "Club Brugge",
+    "sourceId": "133789"
+  },
+  "17": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
+    "source": "TheSportsDB",
+    "sourceName": "Real Betis",
+    "sourceId": "133722"
+  },
+  "18": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/xfsz6i1721297428.png",
+    "source": "TheSportsDB",
+    "sourceName": "PSV Eindhoven",
+    "sourceId": "133768"
+  },
+  "19": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/uturtx1473534803.png",
+    "source": "TheSportsDB",
+    "sourceName": "Feyenoord",
+    "sourceId": "133758"
+  },
+  "20": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/2giize1534005340.png",
+    "source": "TheSportsDB",
+    "sourceName": "Lille",
+    "sourceId": "133711"
+  },
+  "21": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/uqpwwx1449165943.png",
+    "source": "TheSportsDB",
+    "sourceName": "Bodø/Glimt",
+    "sourceId": "135497"
+  },
+  "22": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/l8qyxv1742982541.png",
+    "source": "TheSportsDB",
+    "sourceName": "Napoli",
+    "sourceId": "133670"
+  },
+  "23": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/zjgapo1594244951.png",
+    "source": "TheSportsDB",
+    "sourceName": "RB Leipzig",
+    "sourceId": "134695"
+  },
+  "24": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
+    "source": "TheSportsDB",
+    "sourceName": "Villarreal",
+    "sourceId": "133740"
+  },
+  "25": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png",
+    "source": "TheSportsDB",
+    "sourceName": "Fenerbahçe",
+    "sourceId": "133807"
+  },
+  "26": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png",
+    "source": "TheSportsDB",
+    "sourceName": "Shakhtar Donetsk",
+    "sourceId": "134126"
+  },
+  "27": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/io7jk21767941298.png",
+    "source": "TheSportsDB",
+    "sourceName": "Galatasaray",
+    "sourceId": "133804"
+  },
+  "28": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/l7kl4n1759252139.png",
+    "source": "TheSportsDB",
+    "sourceName": "Slavia Prague",
+    "sourceId": "136036"
+  },
+  "29": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/uzkg701781199823.png",
+    "source": "TheSportsDB",
+    "sourceName": "Slovan Bratislava",
+    "sourceId": "134090"
+  },
+  "30": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png",
+    "source": "TheSportsDB",
+    "sourceName": "Stuttgart",
+    "sourceId": "133660"
+  },
+  "31": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/4nogst1602773624.png",
+    "source": "TheSportsDB",
+    "sourceName": "AEK Athens",
+    "sourceId": "133753"
+  },
+  "32": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/oox26l1683556395.png",
+    "source": "TheSportsDB",
+    "sourceName": "LASK",
+    "sourceId": "137261"
+  },
+  "33": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/02x81t1627405841.png",
+    "source": "TheSportsDB",
+    "sourceName": "Como",
+    "sourceId": "134243"
+  },
+  "34": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/3pxoum1598797195.png",
+    "source": "TheSportsDB",
+    "sourceName": "Lens",
+    "sourceId": "133822"
+  },
+  "35": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png",
+    "source": "TheSportsDB",
+    "sourceName": "Viking",
+    "sourceId": "134570"
+  },
+  "36": {
+    "badge": "https://r2.thesportsdb.com/images/media/team/badge/o2ttq41614284640.png",
+    "source": "TheSportsDB",
+    "sourceName": "Sabah FC-2",
+    "sourceId": "140702"
+  }
+}

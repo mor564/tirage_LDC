@@ -6,6 +6,7 @@
 
 const db = require('./db');
 const { TEAMS } = require('./data/teams');
+const { withLogos } = require('./services/logoService');
 
 const toDomainTeam = row => ({
   id: row.id,
@@ -26,7 +27,7 @@ const mysqlRepository = {
 
   async getTeams() {
     const [rows] = await db.query('SELECT id, name, short_name, country, pot FROM teams ORDER BY id');
-    return rows.map(toDomainTeam);
+    return withLogos(rows.map(toDomainTeam));
   },
 
   async getHistory() {
@@ -118,14 +119,14 @@ function createMemoryRepository() {
     name: 'memory',
 
     async getTeams() {
-      return TEAMS.map(team => ({
+      return withLogos(TEAMS.map(team => ({
         id: team.seeding,
         seeding: team.seeding,
         name: team.name,
         shortName: team.shortName,
         country: team.country,
         pot: team.pot,
-      }));
+      })));
     },
 
     async getHistory() {

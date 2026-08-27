@@ -17,6 +17,7 @@
   "scripts": {
     "start": "node server.js",
     "seed": "node database/seed.js",
-    "verify": "node scripts/verify.js"
+    "verify": "node scripts/verify.js",
+    "logos": "node scripts/fetch-logos.js"
   }
 }
