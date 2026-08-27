@@ -9,5 +9,14 @@
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "redis": "^4.7.0"
+  },
+  "name": "tirage-ldc-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node database/seed.js",
+    "verify": "node scripts/verify.js"
   }
 }

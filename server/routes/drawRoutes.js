@@ -1,23 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { performDraw, getDrawResults } = require('../services/drawService');
+const { createDraw, readLatestDraw, readDraw, readAudit } = require('../controllers/drawController');
 
-router.post('/perform', async (req, res) => {
-  try {
-    const results = await performDraw();
-    res.json(results);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-});
-
-router.get('/results', async (req, res) => {
-  try {
-    const results = await getDrawResults();
-    res.json(results);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-});
+router.post('/perform', createDraw);
+router.get('/latest', readLatestDraw);
+router.get('/audit', readAudit);
+router.get('/:id/audit', readAudit);
+router.get('/:id', readDraw);
 
 module.exports = router;
